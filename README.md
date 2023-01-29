@@ -1,23 +1,20 @@
 
 
-# 连连支付 原作者：yuuhao
-# [原项目地址](https://open.lianlianpay.com/docs/accp/accpstandard/regphone-verifycode-apply.html)
-### 侵权联系请我删除
+# 连连支付 
+## 原作者：yuuhao-[原项目地址](https://github.com/yuuhao/lian2pay)
+
 ### 如何使用
 
 * 安装
     ```shell
     $ composer require itcwc/laravel-lianlianpay:dev-master 
     ```
-
-* 使用
-
 * laravel使用,
-    在项目```config/app.php```的```providers```项中添加
+    在项目`config/app.php`的`providers`项中添加
     ```php
     Itcwc\LianLianPay\LLPayServiceProvider::class
     ```
-    然后使用```php artisan vendor:publish```发布配置文件
+    然后使用`php artisan vendor:publish`发布配置文件
 
 * 在方法中使用
     ```php
@@ -34,10 +31,13 @@
 ---
     
 
-### SDK【后续调用不再更新md，可进入项目文件夹查看或自增】
+### SDK
+**【后续调用不再更新md，可进入项目文件夹查看或自增】**
 
-调用示例：
-``` $llp->account->phoneVerifyCodeApply($userId, $regPhone, $timestamp = null) ```
+* 调用示例：
+```
+$llp->account->phoneVerifyCodeApply($userId, $regPhone, $timestamp = null)
+```
 接口参数具体值请查看相关文档地址
 接口中涉及字段`timestamp`、`oid_partner`统一不要传,`oid_partner`采用实例化config中配置参数，`timestamp`采用服务器当前时间
 **** 
