@@ -1,6 +1,6 @@
 <?php
 
-namespace Itcwc\LianLianPay\Src;
+namespace Itcwc\LianLianPay;
 
 use Illuminate\Support\ServiceProvider;
 
