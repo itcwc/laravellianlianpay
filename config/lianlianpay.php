@@ -21,7 +21,6 @@ return [
         'permission' => 0777,
 
         'file' => storage_path('logs/lianlianpay-' . date('Y-m-d') . '.log'), // 日志文件, 你可以自定义
-
+        
     ],
-
 ];

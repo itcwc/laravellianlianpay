@@ -6,30 +6,33 @@
 ### 如何使用
 
 * 安装
-```shell
-$ composer require itcwc/laravel-lianlianpay:dev-master 
-```
+    ```shell
+    $ composer require itcwc/laravel-lianlianpay:dev-master 
+    ```
 
 * 使用
 
-```php
-$config = [
-    'debug' => true, // 开启调试
-    'oid_partner' => '2020042200284052', // 商户号
-    'private_key' => file_get_contents('merchant_rsa_private_key.pem'), // 商户私钥 地址自行配置，绝对路径
-    'public_key' => file_get_contents('merchant_rsa_public_key.pem'), // 商户公钥
-    'll_public_key' => file_get_contents('llpay_public_key.pem'), // 连连支付公钥
-    'production' => env('APP_ENV') == 'pro', // 是否生产环境 根据.env文件值判断
-    // 日志
-    'log' => [
-        'level' => 'debug',
-        'permission' => 0777,
-        'file' => storage_path('logs/lianlianpay-' . date('Y-m-d') . '.log'), // 日志文件, 你可以自定义
-    ],
-];
-$llp = new \Yoka\LianLianPay\LianLianPay($config);
-$result = $llp->account->phoneVerifyCodeApply('s1', '13250840721'); // 绑定手机验证码申请
-```
+* laravel使用,
+    在项目```config/app.php```的```providers```项中添加
+    ```php
+    Itcwc\LianLianPay\LLPayServiceProvider::class
+    ```
+    然后使用```php artisan vendor:publish```发布配置文件
+
+* 在方法中使用
+    ```php
+
+    use Itcwc\LianLianPay\LianLianPay;
+
+    ...
+    
+    $llp = new LianLianPay(config('lianlianpay'));  
+    $result = $llp->payment->phoneVerifyCodeApply('s1', '13250840721');
+        
+    ```
+
+---
+    
 
 ### SDK【后续调用不再更新md，可进入项目文件夹查看或自增】
 
