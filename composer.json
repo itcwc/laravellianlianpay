@@ -1,5 +1,5 @@
 {
-    "name": "itcwc/laravel-lianlianpay",
+    "name": "Itcwc/laravel-lianlianpay",
     "description": "laravel连连支付扩展",
     "type": "library",
     "license": "MIT",
@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Itcwc\\LaravelLianlianpay\\": "src/"
+            "Itcwc\\LianLianPay\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Itcwc\\LianLianPay\\Src\\LLPayServiceProvider"
+                "Itcwc\\LianLianPay\\LLPayServiceProvider"
             ],
             "aliases": {
-                "lianlianpay": "Itcwc\\LianLianPay\\Src\\LLPayFacade"
+                "lianlianpay": "Itcwc\\LianLianPay\\LLPayFacade"
             }
         }
     }
