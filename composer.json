@@ -19,5 +19,12 @@
         "psr-4": {
             "Itcwc\\LaravelLianlianpay\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itcwc\\LianLianPay\\Src\\LLPayServiceProvider"
+            ]
+        }
     }
 }
