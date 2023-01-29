@@ -1,21 +1,10 @@
 <?php
 
-declare(strict_types=1);
+namespace Itcwc\LianLianPay;
 
-/*
- * This file is part of the EasyWeChatComposer.
- *
- * (c) 张铭阳 <mingyoungcheung@gmail.com>
- *
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
- */
+use Illuminate\Support\ServiceProvider;
 
-namespace EasyWeChatComposer\Laravel;
-
-use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-
-class ServiceProvider extends LaravelServiceProvider
+class LLPayServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
@@ -23,8 +12,13 @@ class ServiceProvider extends LaravelServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/lianlianpay.php' => config_path('lianlianpay.php'),
+            __DIR__.'/../config/lianlianpay.php' => config_path('config/lianlianpay.php'),
         ]);
+    }
+
+    public function register()
+    {
+          
     }
 
 }
