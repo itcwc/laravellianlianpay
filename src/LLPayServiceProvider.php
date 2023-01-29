@@ -9,7 +9,7 @@ class LLPayServiceProvider extends ServiceProvider
 
     public function register()
     {
-
+        $this->mergeConfigFrom(__DIR__.'/../config/lianlianpay.php', 'lianlianpay'); 
     }
 
     /**
@@ -18,10 +18,8 @@ class LLPayServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/lianlianpay.php' => config_path('lianlianpay.php'),
+            __DIR__.'/../config/lianlianpay.php' => config_path('lianlianpay.php'),
+            'config'
         ]);
     }
-
-
-
 }
