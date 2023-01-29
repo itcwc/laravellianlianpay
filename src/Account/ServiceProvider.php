@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Account;
+namespace Itcwc\LianLianPay\Account;
 
 
 use Pimple\Container;

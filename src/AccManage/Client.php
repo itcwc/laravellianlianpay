@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Yoka\LianLianPay\AccManage;
+namespace Itcwc\LianLianPay\AccManage;
 
 
-use Yoka\LianLianPay\Core\AbstractAPI;
-use Yoka\LianLianPay\Exceptions\HttpException;
-use Yoka\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Core\AbstractAPI;
+use Itcwc\LianLianPay\Exceptions\HttpException;
+use Itcwc\LianLianPay\Support\Collection;
 
 class Client extends AbstractAPI
 {

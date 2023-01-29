@@ -1,16 +1,11 @@
 <?php
 
-namespace Yoka\LianLianPay\Withdrawal;
+namespace Itcwc\LianLianPay\Withdrawal;
 
-use Yoka\LianLianPay\Core\AbstractAPI;
-use Yoka\LianLianPay\Exceptions\HttpException;
-use Yoka\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Core\AbstractAPI;
+use Itcwc\LianLianPay\Exceptions\HttpException;
+use Itcwc\LianLianPay\Support\Collection;
 
-/**
- * 提现
- * Class Client
- * @package Yoka\LianLianPay\Withdrawal
- */
 class Client extends AbstractAPI
 {
     /**

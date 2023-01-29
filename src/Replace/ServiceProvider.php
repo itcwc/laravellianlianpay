@@ -5,7 +5,7 @@
  * @Last Modified by: Y95201
  * @Last Modified time: 2022-03-18 14:15:18
  */
-namespace Yoka\LianLianPay\Replace;
+namespace Itcwc\LianLianPay\Replace;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;

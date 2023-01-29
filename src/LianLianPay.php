@@ -1,9 +1,9 @@
 <?php
 
-namespace Yoka\LianLianPay;
+namespace Itcwc\LianLianPay;
 
-use Yoka\LianLianPay\Core\Http;
-use Yoka\LianLianPay\Support\Log;
+use Itcwc\LianLianPay\Core\Http;
+use Itcwc\LianLianPay\Support\Log;
 use Doctrine\Common\Cache\FilesystemCache;
 use Doctrine\Common\Cache\Cache as CacheInterface;
 use Monolog\Handler\HandlerInterface;

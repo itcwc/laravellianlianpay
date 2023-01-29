@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Password;
+namespace Itcwc\LianLianPay\Password;
 
 
 use Pimple\Container;

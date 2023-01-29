@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Exceptions;
+namespace Itcwc\LianLianPay\Exceptions;
 
 /**
  * Class InvalidArgumentException

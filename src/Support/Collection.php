@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Support;
+namespace Itcwc\LianLianPay\Support;
 
 
 use ArrayAccess;

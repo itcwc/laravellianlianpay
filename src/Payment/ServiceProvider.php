@@ -1,6 +1,6 @@
 <?php
 
-namespace Yoka\LianLianPay\Payment;
+namespace Itcwc\LianLianPay\Payment;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;

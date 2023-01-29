@@ -1,11 +1,11 @@
 <?php
 
-namespace Yoka\LianLianPay\Core;
+namespace Itcwc\LianLianPay\Core;
 
-use Yoka\LianLianPay\Exceptions\HttpException;
-use Yoka\LianLianPay\Support\Arr;
-use Yoka\LianLianPay\Support\Collection;
-use Yoka\LianLianPay\Support\Log;
+use Itcwc\LianLianPay\Exceptions\HttpException;
+use Itcwc\LianLianPay\Support\Arr;
+use Itcwc\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Support\Log;
 use GuzzleHttp\Middleware;
 use Psr\Http\Message\RequestInterface;
 

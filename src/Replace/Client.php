@@ -5,11 +5,11 @@
  * @Last Modified by: Y95201
  * @Last Modified time: 2022-03-18 14:20:38
  */
-namespace Yoka\LianLianPay\Replace;
+namespace Itcwc\LianLianPay\Replace;
 
-use Yoka\LianLianPay\Core\AbstractAPI;
-use Yoka\LianLianPay\Exceptions\HttpException;
-use Yoka\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Core\AbstractAPI;
+use Itcwc\LianLianPay\Exceptions\HttpException;
+use Itcwc\LianLianPay\Support\Collection;
 /**
  * 代发
  * Class Client

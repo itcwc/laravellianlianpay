@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Account;
+namespace Itcwc\LianLianPay\Account;
 
 
-use Yoka\LianLianPay\Core\AbstractAPI;
+use Itcwc\LianLianPay\Core\AbstractAPI;
 
 class Client extends AbstractAPI
 {

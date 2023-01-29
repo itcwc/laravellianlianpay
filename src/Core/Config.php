@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Core;
+namespace Itcwc\LianLianPay\Core;
 
 
-use Yoka\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Support\Collection;
 
 class Config extends Collection
 {

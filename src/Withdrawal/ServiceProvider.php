@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Withdrawal;
+namespace Itcwc\LianLianPay\Withdrawal;
 
 
 use Pimple\Container;

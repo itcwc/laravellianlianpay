@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yoka\LianLianPay\Core;
+namespace Itcwc\LianLianPay\Core;
 
 
 class LLHelper

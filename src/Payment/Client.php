@@ -1,14 +1,14 @@
 <?php
 
-namespace Yoka\LianLianPay\Payment;
+namespace Itcwc\LianLianPay\Payment;
 
-use Yoka\LianLianPay\Core\AbstractAPI;
-use Yoka\LianLianPay\Exceptions\HttpException;
-use Yoka\LianLianPay\Exceptions\InvalidArgumentException;
-use Yoka\LianLianPay\Support\Arr;
-use Yoka\LianLianPay\Support\Collection;
-use Yoka\LianLianPay\Support\Log;
-use Yoka\LianLianPay\Core\LLHelper;
+use Itcwc\LianLianPay\Core\AbstractAPI;
+use Itcwc\LianLianPay\Exceptions\HttpException;
+use Itcwc\LianLianPay\Exceptions\InvalidArgumentException;
+use Itcwc\LianLianPay\Support\Arr;
+use Itcwc\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Support\Log;
+use Itcwc\LianLianPay\Core\LLHelper;
 
 class Client extends AbstractAPI
 {

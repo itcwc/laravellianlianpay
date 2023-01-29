@@ -1,10 +1,10 @@
 <?php
 
-namespace Yoka\LianLianPay\Password;
+namespace Itcwc\LianLianPay\Password;
 
-use Yoka\LianLianPay\Core\AbstractAPI;
-use Yoka\LianLianPay\Exceptions\HttpException;
-use Yoka\LianLianPay\Support\Collection;
+use Itcwc\LianLianPay\Core\AbstractAPI;
+use Itcwc\LianLianPay\Exceptions\HttpException;
+use Itcwc\LianLianPay\Support\Collection;
 
 
 /**
