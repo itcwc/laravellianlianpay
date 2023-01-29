@@ -24,7 +24,10 @@
         "laravel": {
             "providers": [
                 "Itcwc\\LianLianPay\\Src\\LLPayServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "lianlianpay": "Itcwc\\LianLianPay\\Src\\LLPayFacade"
+            }
         }
     }
 }
