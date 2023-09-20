@@ -3,6 +3,7 @@
     "description": "laravel连连支付扩展",
     "type": "library",
     "license": "MIT",
+    "version": "0.0.3",
     "require": {
         "php":">=7.0",
         "ext-openssl": "*",
