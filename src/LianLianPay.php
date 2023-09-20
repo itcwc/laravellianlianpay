@@ -25,13 +25,16 @@ use Symfony\Component\HttpFoundation\Request;
 class LianLianPay extends Container
 {
     protected $providers = [
-        Payment\ServiceProvider::class,
+        AccManage\ServiceProvider::class,
         Account\ServiceProvider::class,
         Common\ServiceProvider::class,
-        Withdrawal\ServiceProvider::class,
         Password\ServiceProvider::class,
-        AccManage\ServiceProvider::class,
+        Payment\ServiceProvider::class,
+        Refund\ServiceProvider::class,
         Replace\ServiceProvider::class,
+        Secured\ServiceProvider::class,
+        Support\ServiceProvider::class,
+        Withdrawal\ServiceProvider::class,
     ];
 
     public function __construct(array $config = array())
