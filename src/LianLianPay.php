@@ -33,7 +33,6 @@ class LianLianPay extends Container
         Refund\ServiceProvider::class,
         Replace\ServiceProvider::class,
         Secured\ServiceProvider::class,
-        Support\ServiceProvider::class,
         Withdrawal\ServiceProvider::class,
     ];
 
