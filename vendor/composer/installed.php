@@ -3,7 +3,7 @@
         'name' => 'itcwc/laravel-lianlianpay',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'ab6ef12fc4d504f8efbdb4b4860bd3fc85a97d3c',
+        'reference' => 'ac68e6898ed0ee3cc99d4cd0363bc7cac29c944c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -49,7 +49,7 @@
         'itcwc/laravel-lianlianpay' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'ab6ef12fc4d504f8efbdb4b4860bd3fc85a97d3c',
+            'reference' => 'ac68e6898ed0ee3cc99d4cd0363bc7cac29c944c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
